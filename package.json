@@ -1,0 +1,23 @@
+{
+  "name": "vit",
+  "version": "1.0.0",
+  "description": "VIT Full Stack REST API implementation",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": ["rest-api", "nodejs", "express", "vit"],
+  "author": "Chakr",
+  "license": "MIT"
+}
